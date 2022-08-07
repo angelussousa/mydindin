@@ -97,7 +97,7 @@ useEffect(()=>{
      
       Alert.alert(
         'Atenção',
-        `Valor já Recebido? ${data.cliente}. - R$ ${data.valorReceber}?`,
+        `Valor já Recebido? ${data.cliente}. \nR$ ${data.valorReceber}?`,
         [
           {
             text: 'Cancelar',
